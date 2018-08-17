@@ -8,5 +8,5 @@ docker attach $CONTAINER
 RC=$(docker wait $CONTAINER)
 echo "RC: $RC"
 
-docker rm $CONTAINER
+#docker rm $CONTAINER
 exit $RC
