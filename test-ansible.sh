@@ -12,7 +12,7 @@ rm /etc/ansible/hosts -f
 main_directory=$1
 if [ -z "$main_directory" ] ; then
     echo "Error: Missing directory"
-    echo "$0 <directory_name> <optional extra-vars>"
+    echo "usage: $0 <directory_name> <optional extra-vars>"
     exit
 fi
 
